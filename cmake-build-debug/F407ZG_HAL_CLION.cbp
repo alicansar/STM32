@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="F407ZG_HAL_CLION"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="F407ZG_HAL_CLION.elf">
+				<Option output="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/F407ZG_HAL_CLION.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/User"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Application"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Middlewares"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/SYSTEM"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include"/>
+					<Add directory="d:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 F407ZG_HAL_CLION.elf"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="F407ZG_HAL_CLION.elf/fast">
+				<Option output="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/F407ZG_HAL_CLION.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/User"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Application"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Middlewares"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/SYSTEM"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include"/>
+					<Add directory="d:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 F407ZG_HAL_CLION.elf/fast"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32f4xx_hal_can_legacy.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32_assert_template.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cec.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_conf_template.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cryp.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cryp_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dcmi.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dcmi_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dfsdm.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma2d.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dsi.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_eth.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpi2c.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpi2c_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpsmbus.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpsmbus_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hash.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hash_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_irda.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_lptim.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_ltdc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_ltdc_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_mmc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_nand.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_nor.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pccard.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_qspi.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sai.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sai_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sdram.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_smartcard.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_smbus.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spdifrx.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_wwdg.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_crc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dac.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma2d.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fmc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fmpi2c.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_iwdg.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_lptim.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rng.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rtc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_wwdg.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/SYSTEM/delay/delay.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/SYSTEM/delay/delay.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/SYSTEM/readme.txt">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/SYSTEM/sys/sys.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/SYSTEM/sys/sys.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/SYSTEM/usart/usart.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Drivers/SYSTEM/usart/usart.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/Middlewares/readme.txt">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/STM32F407ZGTx_FLASH.ld">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/User/main.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/User/stm32f4xx_hal_conf.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/User/stm32f4xx_it.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/User/stm32f4xx_it.h">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/User/syscalls.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/User/system_stm32f4xx.c">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/startup/startup_stm32f407xx.s">
+			<Option target="F407ZG_HAL_CLION.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

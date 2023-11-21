@@ -1,0 +1,3 @@
+C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/CMakeFiles/F407ZG_HAL_CLION.elf.dir
+C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sclliang/Desktop/F407ZG_HAL_CLION/cmake-build-debug/CMakeFiles/rebuild_cache.dir
