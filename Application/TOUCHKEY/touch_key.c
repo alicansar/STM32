@@ -19,9 +19,9 @@ void touch_key_init(void) {
     HAL_TIM_IC_Init(&TOUCH_TIM_InitStruct);
 
     TIM_IC_InitTypeDef icConfig = {0};
-    icConfig.ICFilter = 0;
-    icConfig.ICPolarity = TIM_ICPOLARITY_RISING;
-    icConfig.ICPrescaler = TIM_ICPSC_DIV1;
+    icConfig.ICFilter = 0;                              //不滤波
+    icConfig.ICPolarity = TIM_ICPOLARITY_RISING;        // 上升沿检测
+    icConfig.ICPrescaler = TIM_ICPSC_DIV1;              //不分频
     icConfig.ICSelection = TIM_ICSELECTION_DIRECTTI;
     HAL_TIM_IC_ConfigChannel(&TOUCH_TIM_InitStruct, &icConfig, TIM_CHANNEL_1);
 
@@ -36,7 +36,7 @@ void HAL_TIM_IC_MspInit(TIM_HandleTypeDef *htim) {
         GPIO_InitTypeDef TOUCH_KEY_GPIO_InitStruct = {0};
         TOUCH_KEY_GPIO_InitStruct.Pin = GPIO_PIN_5;
         TOUCH_KEY_GPIO_InitStruct.Pull = GPIO_NOPULL;
-        TOUCH_KEY_GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+        TOUCH_KEY_GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;       //复用推挽输出模式，F4系列以后没有复用输入
         TOUCH_KEY_GPIO_InitStruct.Speed = GPIO_SPEED_HIGH;
         TOUCH_KEY_GPIO_InitStruct.Alternate = GPIO_AF1_TIM2;
         HAL_GPIO_Init(GPIOA, &TOUCH_KEY_GPIO_InitStruct);
@@ -51,6 +51,7 @@ void HAL_TIM_IC_MspInit(TIM_HandleTypeDef *htim) {
 **/
 uint32_t touch_key_reset(void) {
     GPIO_InitTypeDef TOUCH_KEY_GPIO_InitStruct = {0};
+    //将IO设置为普通推挽输出,拉低电平进行放电,再设置为复用模式检测从低电平到高电平时间判断按键是否被按下
     TOUCH_KEY_GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
     TOUCH_KEY_GPIO_InitStruct.Speed = GPIO_SPEED_HIGH;
     TOUCH_KEY_GPIO_InitStruct.Pin = GPIO_PIN_5;
@@ -64,11 +65,12 @@ uint32_t touch_key_reset(void) {
     TOUCH_KEY_GPIO_InitStruct.Speed = GPIO_SPEED_HIGH;
     TOUCH_KEY_GPIO_InitStruct.Alternate = GPIO_AF1_TIM2;
     HAL_GPIO_Init(GPIOA, &TOUCH_KEY_GPIO_InitStruct);
+    //清除状态标志
     TIM2->SR = 0;
-    TIM2->CNT = 0;
+    TIM2->CNT = 0;  //计数器清零
     while (__HAL_TIM_GET_FLAG(&TOUCH_TIM_InitStruct, TIM_FLAG_CC1) == RESET) {
-        if (TIM2->CNT == 0xffff00) {
-            break;
+        if (TIM2->CNT == 0xffff00) {    //超时直接返回
+            return TIM2->CNT;
         }
     }
 
